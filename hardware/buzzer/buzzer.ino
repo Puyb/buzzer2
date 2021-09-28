@@ -13,9 +13,9 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WiFiMulti.h>
 
-#include <WebSocketsClient.h>
+#include <WebSocketsClient.h> // https://github.com/Links2004/arduinoWebSockets
 
-#include <WS2812FX.h>
+#include <WS2812FX.h> // https://github.com/kitesurfer1404/WS2812FX
 
 ESP8266WiFiMulti WiFiMulti;
 WebSocketsClient webSocket;

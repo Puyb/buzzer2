@@ -51,6 +51,7 @@ let state = 'start'
 let round = 0
 let item = 0
 let winner = null
+let stateStartDate;
 const controllers = []
 
 const updateControllers = async data => {
@@ -90,7 +91,8 @@ const connectControl = async ws => {
     state,
     item,
     round,
-    stateButtons: STATES[state]
+    stateButtons: STATES[state],
+    winner,
   }))
   await updateControllerBuzzerList()
 
@@ -144,6 +146,10 @@ const changeState = async newState => {
       break
     case 'play':
       winner = null
+      for (const team of Object.values(teams)) {
+          team.time = null;
+      }
+      stateStartDate = Date.now()
       await updateControllers({ action: 'play', round, item })
       await updateBuzzers(BUZZER_RAINBOW)
       break
@@ -153,6 +159,7 @@ const changeState = async newState => {
     case 'answer':
       await updateBuzzers(BUZZER_BLACK)
       await teams[winner].change(BUZZER_BLINK)
+      await updateControllers({ action: 'winner', winner })
       break
     case 'right':
       teams[winner].score++
@@ -198,10 +205,11 @@ const updateControllerBuzzerList = async () => {
 app.ws('/websockets/buzzer', async (ws, req) => {
   try {
     const ip = req.connection.remoteAddress
-    const team = _.find(teams, t => t.ip === ip) || _.find(teams, t => !t.connection)
+    const team = _.find(teams, t => t.ip === ip) || _.find(teams, t => !t.connection && !t.ip) || _.find(teams, t => !t.connection) 
     console.log('buzzer connected', ip, team.name, team.color)
+    team.ip = ip
     team.connection = ws
-    team.connected = ws
+    team.connected = !!ws
     team.send = async (...commands) => Promise.all(
       commands.map(command => ws.send(command))
     )
@@ -235,9 +243,11 @@ app.ws('/websockets/buzzer', async (ws, req) => {
     ws.on('message', async (msg) => {
       try {
         console.log('buzzer hit', ip, team.name)
+        team.time = team.time || Date.now() - stateStartDate 
         await updateControllers({
           action: 'hit',
-          hit: team.name
+          hit: team.name,
+          time: team.time,
         })
         if (state === 'play' && !winner) {
           winner = team.name
@@ -247,6 +257,16 @@ app.ws('/websockets/buzzer', async (ws, req) => {
         console.error('Error buzzer message', err, team)
       }
     })
+
+    let isAlive = true;
+    ws.on('pong', () => { isAlive = true });
+    const interval = setInterval(() => {
+      if (isAlive === false) return ws.terminate();
+
+      isAlive = false
+      ws.ping(() => {})
+    }, 1000);
+    ws.on('close', () => clearInterval(interval))
   } catch (err) {
     console.error('Error buzzer connect', err)
   }

@@ -33,51 +33,136 @@
   ],
   "game": [
     {
+      "title": "Round 1 - Meme pas peur",
+      "items": [
+        {
+          "title": "Nyan Cat",
+          "question": {
+            "audioSrc": "media/meme/Nyan Cat [original]-QH2-TGUlwu4.opus"
+          },
+          "answer": {
+            "videoSrc": "media/meme/Nyan Cat [original]-QH2-TGUlwu4.mkv"
+          }
+        },
+        {
+          "title": "Pillars of the creation",
+          "question": {
+            "imgSrc": "media/meme/o-PILLARS-OF-CREATION-facebook.jpg"
+          },
+          "answer": {
+            "imgSrc": "media/meme/o-PILLARS-OF-CREATION-facebook.jpg"
+          }
+        },
+        {
+          "title": "Voodoo people",
+          "question": {
+            "audioSrc": "media/meme/Tommy Seebach Apache HQ (Original)-f6tnj7IEI0E.mkv"
+          },
+          "answer": {
+            "videoSrc": "media/meme/Tommy Seebach) Apache vs. Voodoo people (The prodigy)-rv5OwTiBEiQ.mkv"
+          }
+        },
+        {
+          "title": "Never gona give you up",
+          "question": {
+            "audioSrc": "media/meme/Rick Astley - Never Gonna Give You Up (Video)-dQw4w9WgXcQ.opus"
+          },
+          "answer": {
+            "audioSrc": "media/meme/Rick Astley - Never Gonna Give You Up (Video)-dQw4w9WgXcQ.mkv"
+          }
+        }
+      ]
+    },
+    {
       "title": "Round 1 - Music",
       "items": [
         {
-          "src": "media/r1/Baby one more time.mp3",
-          "title": "Britney Spears - Baby one more time"
+          "question": {
+            "audioSrc": "media/r1/Baby one more time.mp3"
+          },
+          "answer": {
+            "text": "Britney Spears - Baby one more time"
+          }
         },
         {
-          "src": "media/r1/Black Betty.mp3",
-          "title": "Ram Jam - Black Betty"
+          "question": {
+            "audioSrc": "media/r1/Black Betty.mp3"
+          },
+          "answer": {
+            "text": "Ram Jam - Black Betty"
+          }
         },
         {
-          "src": "media/r1/Dancing Queen.mp3",
-          "title": "Abba - Dancing Queen"
+          "question": {
+            "audioSrc": "media/r1/Dancing Queen.mp3"
+          },
+          "answer": {
+            "text": "Abba - Dancing Queen"
+          }
         },
         {
-          "src": "media/r1/Hit The Road, Jack.mp3",
-          "title": "Ray Charles - Hit The Road, Jack"
+          "question": {
+            "audioSrc": "media/r1/Hit The Road, Jack.mp3"
+          },
+          "answer": {
+            "text": "Ray Charles - Hit The Road, Jack"
+          }
         },
         {
-          "src": "media/r1/I will survive.mp3",
-          "title": "Gloria Gaynor - I will survive"
+          "question": {
+            "audioSrc": "media/r1/I will survive.mp3"
+          },
+          "answer": {
+            "text": "Gloria Gaynor - I will survive"
+          }
         },
         {
-          "src": "media/r1/Dragoste din tei.MP3",
-          "title": "Ozone - Dragoste din tei"
+          "question": {
+            "audioSrc": "media/r1/Dragoste din tei.MP3"
+          },
+          "answer": {
+            "text": "Ozone - Dragoste din tei"
+          }
         },
         {
-          "src": "media/r1/Seven Nation Army.m4a",
-          "title": "The White Stripes - Seven Nation Army"
+          "question": {
+            "audioSrc": "media/r1/Seven Nation Army.m4a"
+          },
+          "answer": {
+            "text": "The White Stripes - Seven Nation Army"
+          }
         },
         {
-          "src": "media/r1/Bohemian Rhapsody.mp3",
-          "title": "Queen - Bohemian Rhapsody"
+          "question": {
+            "audioSrc": "media/r1/Bohemian Rhapsody.mp3"
+          },
+          "answer": {
+            "text": "Queen - Bohemian Rhapsody"
+          }
         },
         {
-          "src": "media/r1/Wannabe.mp3",
-          "title": "Spice Girls - Wannabe"
+          "question": {
+            "audioSrc": "media/r1/Wannabe.mp3"
+          },
+          "answer": {
+            "text": "Spice Girls - Wannabe"
+          }
         },
         {
-          "src": "media/r1/Take Me Out.mp3",
-          "title": "Franz Ferdinand - Take Me Out"
+          "question": {
+            "audioSrc": "media/r1/Take Me Out.mp3"
+          },
+          "answer": {
+            "text": "Franz Ferdinand - Take Me Out"
+          }
         },
         {
-          "src": "media/r1/99 Luftballons.mp3",
-          "title": "Nena - 99 Luftballons"
+          "question": {
+            "audioSrc": "media/r1/99 Luftballons.mp3"
+          },
+          "answer": {
+            "text": "Nena - 99 Luftballons"
+          }
         }
       ]
     },
@@ -85,66 +170,75 @@
       "title": "Round 2 - Almost that",
       "items": [
         {
-          "src": "media/r3/AC-DC - Thunderstruck.mp3",
-          "title": "AC-DC - Thunderstruck",
-          "markers": {
-            "original": 240
+          "question": {
+            "audioSrc": "media/r3/AC-DC - Thunderstruck.mp3"
+          },
+          "answer": {
+            "text": "AC-DC - Thunderstruck"
           }
         },
         {
-          "src": "media/r3/Chuck Berry - Jonny B. Goode.opus",
-          "title": "Chuck Berry - Jonny B. Goode",
-          "markers": {
-            "original": 240
+          "question": {
+            "audioSrc": "media/r3/Chuck Berry - Jonny B. Goode.opus"
+          },
+          "answer": {
+            "text": "Chuck Berry - Jonny B. Goode"
           }
         },
         {
-          "src": "media/r3/Coolio - Gangsta's paradise.opus",
-          "title": "Coolio - Gangsta's paradise",
-          "markers": {
-            "original": 240
+          "question": {
+            "audioSrc": "media/r3/Coolio - Gangsta's paradise.opus"
+          },
+          "answer": {
+            "text": "Coolio - Gangsta's paradise"
           }
         },
         {
-          "src": "media/r3/Darude - Sandstorm.mp3",
-          "title": "Darude - Sandstorm",
-          "markers": {
-            "original": 240
+          "question": {
+            "audioSrc": "media/r3/Darude - Sandstorm.mp3"
+          },
+          "answer": {
+            "text": "Darude - Sandstorm"
           }
         },
         {
-          "src": "media/r3/Effeil 65 - Blue.opus",
-          "title": "Effeil 65 - Blue",
-          "markers": {
-            "original": 240
+          "question": {
+            "audioSrc": "media/r3/Effeil 65 - Blue.opus"
+          },
+          "answer": {
+            "text": "Effeil 65 - Blue"
           }
         },
         {
-          "src": "media/r3/Europe - The Final Countdown.mp3",
-          "title": "Europe - The Final Countdown",
-          "markers": {
-            "original": 240
+          "question": {
+            "audioSrc": "media/r3/Europe - The Final Countdown.mp3"
+          },
+          "answer": {
+            "text": "Europe - The Final Countdown"
           }
         },
         {
-          "src": "media/r3/Eurythmics - Sweet Dreams.mp3",
-          "title": "Eurythmics - Sweet Dreams",
-          "markers": {
-            "original": 240
+          "question": {
+            "audioSrc": "media/r3/Eurythmics - Sweet Dreams.mp3"
+          },
+          "answer": {
+            "text": "Eurythmics - Sweet Dreams"
           }
         },
         {
-          "src": "media/r3/Linkin Park - In The End.opus",
-          "title": "Linkin Park - In The End",
-          "markers": {
-            "original": 240
+          "question": {
+            "audioSrc": "media/r3/Linkin Park - In The End.opus"
+          },
+          "answer": {
+            "text": "Linkin Park - In The End"
           }
         },
         {
-          "src": "media/r3/Scorpion - Still loving you.mp3",
-          "title": "Scorpion - Still loving you",
-          "markers": {
-            "original": 240
+          "question": {
+            "audioSrc": "media/r3/Scorpion - Still loving you.mp3"
+          },
+          "answer": {
+            "text": "Scorpion - Still loving you"
           }
         }
       ]
@@ -153,52 +247,100 @@
       "title": "Round 3 - Movies & TV",
       "items": [
         {
-          "src": "media/r2/Batman.mp3",
-          "title": "Batman"
+          "question": {
+            "audioSrc": "media/r2/Batman.mp3"
+          },
+          "answer": {
+            "text": "Batman"
+          }
         },
         {
-          "src": "media/r2/Buffy.opus",
-          "title": "Buffy"
+          "question": {
+            "audioSrc": "media/r2/Buffy.opus"
+          },
+          "answer": {
+            "text": "Buffy"
+          }
         },
         {
-          "src": "media/r2/Friends.opus",
-          "title": "Friends"
+          "question": {
+            "audioSrc": "media/r2/Friends.opus"
+          },
+          "answer": {
+            "text": "Friends"
+          }
         },
         {
-          "src": "media/r2/indiana.opus",
-          "title": "Indiana Johns"
+          "question": {
+            "audioSrc": "media/r2/indiana.opus"
+          },
+          "answer": {
+            "text": "Indiana Johns"
+          }
         },
         {
-          "src": "media/r2/amelie.opus",
-          "title": "Amelie Poulain"
+          "question": {
+            "audioSrc": "media/r2/amelie.opus"
+          },
+          "answer": {
+            "text": "Amelie Poulain"
+          }
         },
         {
-          "src": "media/r2/Gladiator.opus",
-          "title": "Gladiator"
+          "question": {
+            "audioSrc": "media/r2/Gladiator.opus"
+          },
+          "answer": {
+            "text": "Gladiator"
+          }
         },
         {
-          "src": "media/r2/Starwar.opus",
-          "title": "Star War"
+          "question": {
+            "audioSrc": "media/r2/Starwar.opus"
+          },
+          "answer": {
+            "text": "Star War"
+          }
         },
         {
-          "src": "media/r2/McGyver.m4a",
-          "title": "McGyver"
+          "question": {
+            "audioSrc": "media/r2/McGyver.m4a"
+          },
+          "answer": {
+            "text": "McGyver"
+          }
         },
         {
-          "src": "media/r2/Mission impossible.opus",
-          "title": "Mission impossible"
+          "question": {
+            "audioSrc": "media/r2/Mission impossible.opus"
+          },
+          "answer": {
+            "text": "Mission impossible"
+          }
         },
         {
-          "src": "media/r2/pirate.m4a",
-          "title": "Pirates of the Carabbean.m4a"
+          "question": {
+            "audioSrc": "media/r2/pirate.m4a"
+          },
+          "answer": {
+            "text": "Pirates of the Carabbean.m4a"
+          }
         },
         {
-          "src": "media/r2/Startrek.mp3",
-          "title": "Star Trek"
+          "question": {
+            "audioSrc": "media/r2/Startrek.mp3"
+          },
+          "answer": {
+            "text": "Star Trek"
+          }
         },
         {
-          "src": "media/r2/Aladin.opus",
-          "title": "Aladin"
+          "question": {
+            "audioSrc": "media/r2/Aladin.opus"
+          },
+          "answer": {
+            "text": "Aladin"
+          }
         }
       ]
     },
@@ -206,87 +348,99 @@
       "title": "Round 4 - Pardon my french",
       "items": [
         {
-          "src": "media/r4/Bruce Springsteen - Streets of Philadelphia-output.mp3",
-          "title": "Bruce Springsteen - Streets of Philadelphia",
-          "markers": {
-            "original": 83
+          "question": {
+            "audioSrc": "media/r4/Bruce Springsteen - Streets of Philadelphia-output.mp3"
+          },
+          "answer": {
+            "text": "Bruce Springsteen - Streets of Philadelphia"
           }
         },
         {
-          "src": "media/r4/Queen - Bohemian Rhapsody-output.mp3",
-          "title": "Queen - Bohemian Rhapsody",
-          "markers": {
-            "original": 164
+          "question": {
+            "audioSrc": "media/r4/Queen - Bohemian Rhapsody-output.mp3"
+          },
+          "answer": {
+            "text": "Queen - Bohemian Rhapsody"
           }
         },
         {
-          "src": "media/r4/The Cranberies - Zombie-output.mp3",
-          "title": "The Cranberies - Zombie",
-          "markers": {
-            "original": 94
+          "question": {
+            "audioSrc": "media/r4/The Cranberies - Zombie-output.mp3"
+          },
+          "answer": {
+            "text": "The Cranberies - Zombie"
           }
         },
         {
-          "src": "media/r4/Alanis Morissette - Ironic-output.mp3",
-          "title": "Alanis Morissette - Ironic",
-          "markers": {
-            "original": 131
+          "question": {
+            "audioSrc": "media/r4/Alanis Morissette - Ironic-output.mp3"
+          },
+          "answer": {
+            "text": "Alanis Morissette - Ironic"
           }
         },
         {
-          "src": "media/r4/Oasis - Wonderwall-output.mp3",
-          "title": "Oasis - Wonderwall",
-          "markers": {
-            "original": 118
+          "question": {
+            "audioSrc": "media/r4/Oasis - Wonderwall-output.mp3"
+          },
+          "answer": {
+            "text": "Oasis - Wonderwall"
           }
         },
         {
-          "src": "media/r4/Fool's Garden - Lemon Tree-output.mp3",
-          "title": "Fool's Garden - Lemon Tree",
-          "markers": {
-            "original": 129
+          "question": {
+            "audioSrc": "media/r4/Fool's Garden - Lemon Tree-output.mp3"
+          },
+          "answer": {
+            "text": "Fool's Garden - Lemon Tree"
           }
         },
         {
-          "src": "media/r4/Toto - Africa-output.mp3",
-          "title": "Toto - Africa",
-          "markers": {
-            "original": 119
+          "question": {
+            "audioSrc": "media/r4/Toto - Africa-output.mp3"
+          },
+          "answer": {
+            "text": "Toto - Africa"
           }
         },
         {
-          "src": "media/r4/Gloria Gaynor - I will survive-output.mp3",
-          "title": "Gloria Gaynor - I will survive",
-          "markers": {
-            "original": 139
+          "question": {
+            "audioSrc": "media/r4/Gloria Gaynor - I will survive-output.mp3"
+          },
+          "answer": {
+            "text": "Gloria Gaynor - I will survive"
           }
         },
         {
-          "src": "media/r4/Jermaine Jackson - When the rain begin to fall-output.mp3",
-          "title": "Jermaine Jackson - When the rain begin to fall",
-          "markers": {
-            "original": 131
+          "question": {
+            "audioSrc": "media/r4/Jermaine Jackson - When the rain begin to fall-output.mp3"
+          },
+          "answer": {
+            "text": "Jermaine Jackson - When the rain begin to fall"
           }
         },
         {
-          "src": "media/r4/Placebo - Every You Every Me-output.mp3",
-          "title": "Placebo - Every You Every Me",
-          "markers": {
-            "original": 116
+          "question": {
+            "audioSrc": "media/r4/Placebo - Every You Every Me-output.mp3"
+          },
+          "answer": {
+            "text": "Placebo - Every You Every Me"
           }
         },
         {
-          "src": "media/r4/Sting - Evry breath you take-output.mp3",
-          "title": "Sting - Evry breath you take",
-          "markers": {
-            "original": 122
+          "question": {
+            "audioSrc": "media/r4/Sting - Evry breath you take-output.mp3"
+          },
+          "answer": {
+            "text": "Sting - Evry breath you take"
           }
         },
         {
-          "src": "media/r4/50 cent - In da club-output.mp3",
-          "title": "50 cent - In da club",
-          "markers": {
-            "original": 253
+          "question": {
+            "audioSrc": "media/r4/50 cent - In da club-output.mp3"
+          },
+          "answer": {
+            "text": "50 cent - In da club"
           }
         }
       ]

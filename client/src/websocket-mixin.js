@@ -22,11 +22,7 @@ export default {
     onMessage(message) {
       console.log(message.data)
       const data = JSON.parse(message.data)
-      // Object.assign(this, data)
-      for (const k in data) {
-        console.log(k, data[k])
-        this[k] = data[k];
-      }
+      Object.assign(this, data)
       if (this[`do_${data.action}`]) {
         this[`do_${data.action}`](data)
       }
